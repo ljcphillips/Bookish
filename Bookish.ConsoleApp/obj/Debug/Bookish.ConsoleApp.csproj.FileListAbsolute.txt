@@ -1,0 +1,10 @@
+C:\Users\LIP\Work\Training\Bookish\Bookish.ConsoleApp\obj\Debug\Bookish.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\LIP\Work\Training\Bookish\Bookish.ConsoleApp\obj\Debug\Bookish.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\LIP\Work\Training\Bookish\Bookish.ConsoleApp\bin\Debug\Bookish.ConsoleApp.exe.config
+C:\Users\LIP\Work\Training\Bookish\Bookish.ConsoleApp\bin\Debug\Bookish.ConsoleApp.exe
+C:\Users\LIP\Work\Training\Bookish\Bookish.ConsoleApp\bin\Debug\Bookish.ConsoleApp.pdb
+C:\Users\LIP\Work\Training\Bookish\Bookish.ConsoleApp\bin\Debug\Dapper.dll
+C:\Users\LIP\Work\Training\Bookish\Bookish.ConsoleApp\bin\Debug\Dapper.xml
+C:\Users\LIP\Work\Training\Bookish\Bookish.ConsoleApp\obj\Debug\Bookish.ConsoleApp.csproj.CopyComplete
+C:\Users\LIP\Work\Training\Bookish\Bookish.ConsoleApp\obj\Debug\Bookish.ConsoleApp.exe
+C:\Users\LIP\Work\Training\Bookish\Bookish.ConsoleApp\obj\Debug\Bookish.ConsoleApp.pdb

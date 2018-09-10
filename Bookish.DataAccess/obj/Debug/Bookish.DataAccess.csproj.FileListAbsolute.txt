@@ -1,0 +1,2 @@
+C:\Users\LIP\Work\Training\Bookish\Bookish.DataAccess\obj\Debug\Bookish.DataAccess.csprojAssemblyReference.cache
+C:\Users\LIP\Work\Training\Bookish\Bookish.DataAccess\obj\Debug\Bookish.DataAccess.csproj.CoreCompileInputs.cache
