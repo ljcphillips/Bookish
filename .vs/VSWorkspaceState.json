@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bookish.ConsoleApp",
+    "\\Bookish.Web2",
+    "\\Bookish.Web2\\Controllers"
   ],
+  "SelectedNode": "\\Bookish.ConsoleApp",
   "PreviewInSolutionExplorer": false
 }

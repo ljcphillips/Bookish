@@ -1,2 +1,5 @@
-C:\Users\LIP\Work\Training\Bookish\Bookish.DataAccess\obj\Debug\Bookish.DataAccess.csprojAssemblyReference.cache
 C:\Users\LIP\Work\Training\Bookish\Bookish.DataAccess\obj\Debug\Bookish.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\LIP\Work\Training\Bookish\Bookish.DataAccess\bin\Debug\Bookish.DataAccess.dll
+C:\Users\LIP\Work\Training\Bookish\Bookish.DataAccess\bin\Debug\Bookish.DataAccess.pdb
+C:\Users\LIP\Work\Training\Bookish\Bookish.DataAccess\obj\Debug\Bookish.DataAccess.dll
+C:\Users\LIP\Work\Training\Bookish\Bookish.DataAccess\obj\Debug\Bookish.DataAccess.pdb

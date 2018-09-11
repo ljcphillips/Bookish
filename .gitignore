@@ -2,3 +2,5 @@ Bookish.ConsoleApp/App.config
 .config
 App.config
 
+/Bookish.Web2/bin
+/Bookish.Web2/obj
