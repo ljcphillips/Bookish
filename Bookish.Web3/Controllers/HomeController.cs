@@ -7,12 +7,18 @@ using Bookish.ConsoleApp;
 
 namespace Bookish.Web3.Controllers
 {
+    public class Book
+    {
+        public string Title;
+    }
     public class HomeController : Controller
     {
-        public String Index()
+        public ActionResult Index()
         {
-            Bookish.ConsoleApp.Program.ItemReturn();
-            return "Test";
+            var books = new List<Book> { new Book { Title = "foo" }, new Book { Title = "bar" } }; //bookRepo.GetBooks();
+            ViewBag.Books = books;
+
+            return View();
         }
 
         public ActionResult About()

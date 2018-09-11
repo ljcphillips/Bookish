@@ -32,16 +32,17 @@ namespace Bookish.ConsoleApp
     {
         static void Main()
         {
+            var connString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+            //var bookRepo = new DataAccess.BookRepository(connString);
+            //bookRepo.GetItems();.....
         }
         public static string ItemReturn() 
         {
-            IDbConnection db = new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
+            IDbConnection db = new SqlConnection();
             string SqlString = "SELECT TOP 100 [ItemID],[UserID],[ReturnDate],[BookID] FROM [Items]";
             var ourItems = (List<Item>)db.Query<Item>(SqlString);
             foreach (var Item in ourItems)
             {
-                Console.WriteLine(Item.ItemID.ToString());
-                Console.ReadLine();
                 return Item.ItemID.ToString();
             }
             return "No Items";
