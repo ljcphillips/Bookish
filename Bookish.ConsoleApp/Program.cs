@@ -28,24 +28,23 @@ namespace Bookish.ConsoleApp
     }
 
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        static void Main()
+        {
+        }
+        public static string ItemReturn() 
         {
             IDbConnection db = new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
             string SqlString = "SELECT TOP 100 [ItemID],[UserID],[ReturnDate],[BookID] FROM [Items]";
             var ourItems = (List<Item>)db.Query<Item>(SqlString);
             foreach (var Item in ourItems)
             {
-                Console.WriteLine(new string('*', 20));
-                Console.WriteLine("\nItem ID: " + Item.ItemID.ToString());
-                Console.WriteLine("\nUser ID: " + Item.UserID.ToString());
-                Console.WriteLine("\nReturn Date: " + Item.ReturnDate.ToString());
-                Console.WriteLine("\nBook ID: " + Item.BookID.ToString());
-                Console.WriteLine(new string('*', 20));
+                Console.WriteLine(Item.ItemID.ToString());
+                Console.ReadLine();
+                return Item.ItemID.ToString();
             }
-
-            Console.ReadLine();
+            return "No Items";
         }
     }
 }
